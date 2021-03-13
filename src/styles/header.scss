@@ -1,0 +1,22 @@
+header.header {
+  background: var(--purple);
+  padding-top: 2rem;
+
+  > div {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    padding: 2rem 1rem 12rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.label-header {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 30px;
+}
